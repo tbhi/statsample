@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rserve-client', '~> 0.3'
   s.add_runtime_dependency 'rubyvis', '~> 0.6.1'
   s.add_runtime_dependency 'distribution', '~> 0.7'
-  s.add_runtime_dependency 'awesome_print', '~> 1.6'
+  s.add_runtime_dependency 'amazing_print', '~> 1.2.1'
 
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_development_dependency 'rake', '~> 10.4'
@@ -83,5 +83,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'gsl', '~> 2.1'
   s.add_development_dependency 'pry'
   s.add_development_dependency 'rubocop'
-  s.add_development_dependency 'activesupport', '~> 4.2'
+  s.add_development_dependency 'activesupport', '~> 6.0'
 end
