@@ -1,8 +1,8 @@
 require(File.expand_path(File.dirname(__FILE__) + '/helpers_tests.rb'))
-class StatsampleAwesomePrintBug < Minitest::Test
-  context('Awesome Print integration') do
+class StatsampleAmazingPrintBug < Minitest::Test
+  context('Amazing Print integration') do
     setup do
-      require 'awesome_print'
+      require 'amazing_print'
     end
     should 'should be flawless' do
       a = Daru::Vector.new([1, 2, 3])
