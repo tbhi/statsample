@@ -60,16 +60,18 @@ Gem::Specification.new do |s|
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
 
-  s.add_runtime_dependency 'daru', '~> 0.2.2'
+  s.add_runtime_dependency 'daru', '~> 0'
   s.add_runtime_dependency 'spreadsheet', '~> 1.1'
-  s.add_runtime_dependency 'reportbuilder', '~> 1.4'
+  # s.add_runtime_dependency 'reportbuilder', '~> 1.4' # last release 2011, has old dependencies
   s.add_runtime_dependency 'minimization', '~> 0.2'
-  s.add_runtime_dependency 'dirty-memoize', '~> 0.0.4'
+  s.add_runtime_dependency 'dirty-memoize', '~> 0.0'
   s.add_runtime_dependency 'extendmatrix', '~> 0.4'
   s.add_runtime_dependency 'rserve-client', '~> 0.3'
-  s.add_runtime_dependency 'rubyvis', '~> 0.6.1'
+  s.add_runtime_dependency 'rubyvis', '~> 0.6'
   s.add_runtime_dependency 'distribution', '~> 0.7'
-  s.add_runtime_dependency 'amazing_print', '~> 1.2.1'
+  s.add_runtime_dependency 'amazing_print', '~> 1.2'
+  s.add_runtime_dependency 'matrix', '~> 0'
+  s.add_runtime_dependency 'prime', '~> 0' # https://github.com/SciRuby/distribution/issues/43
 
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_development_dependency 'rake', '~> 10.4'
